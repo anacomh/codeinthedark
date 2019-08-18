@@ -1,0 +1,177 @@
+ @charset "utf-8";
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+/* @import url(http://fonts.googleapis.com/css?family=Pathway+Gothic+One); */
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+code {
+  border: 1px solid #eee;
+  border-radius: 5px;
+  background-color: rgba(245, 245, 245, 0.7) !important;
+  text-align: left;
+}
+
+.well {
+  padding: 25px;
+  background-color: rgba(245, 245, 245, 0.7);
+  border-radius: 5px;
+}
+
+.well p {
+  font-size:
+}
+
+.btn-group-justified {
+  margin: 0 auto;
+}
+
+body {
+  background-color: #1c1c1c;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 25px;
+  color: lightgreen;
+}
+
+.container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+a{
+  color: #ccd500;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: #a9b119;
+}
+
+
+
+/*
+ * Header
+ */
+.header-line {
+  width: 100%;
+  position: absolute;
+  height: 10px;
+  background-color: #A48E4E;
+  top: 0px;
+}
+
+header {
+  margin-top: 10px;
+  background-color: #DCD293;
+  border-bottom: 10px solid #66D4FF;
+  border-top: 20px dashed #A48E4E;
+  padding: 2em;
+  color:#333;
+  font-size: 25px;
+  text-align: center;
+}
+
+header a {
+  color: #6C5726;
+  font-weight: 700;
+}
+
+
+/*
+ * SlotMachine
+ */
+
+#randomize ::before {
+  width: 100%;
+  height: 100%;
+  background: blue;
+}
+
+#randomize img {
+  /*width: 300px;*/
+  width:300px;
+  height:300px;
+}
+#randomize .row > div.col-sm-3 > div {
+  /* padding: 40px; */
+  /*width: 200px;
+  height: 180px;*/
+  /* background: white; */
+  /* border-radius: 50%; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  display: block;
+  text-align: center;
+  width:300px;
+  height:300px;
+  overflow: hidden;
+}
+
+#randomize .row > div.col-xs-3 > div {
+  /* padding-top: 40px;
+  padding-left: 40px;
+  width: 175px;
+  height: 175px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: auto; */
+
+}
+
+.randomizeMachine {
+  /*width: 300px;
+  height: 300px;
+  position: relative;*/
+
+}
+
+.overlay:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    z-index: 9999999;
+    height: 300px;
+    width: 300px;
+    /* background: linear-gradient(to bottom, rgba(68, 128, 122, 0.07) 10%,rgba(13, 255, 121, 0.32) 80%); */
+    background-image: linear-gradient(to bottom right,#34FF94,#E100B4);
+    opacity: .5;
+}
+
+
+#randomize .btn-group {
+  margin-top: 30px;
+  width: auto;
+  margin-bottom: 15px;
+}
+
+.machineResult {
+  color: #fff;
+  text-align: center;
+  font-weight: 900;
+  height: 50px !important;
+  background: transparent !important;
+  font-size: 18px;
+  padding: 10px !important;
+}
+
+.slotMachineContainer img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.slotMachineContainer img:after {
+    /* content: "";
+    position: absolute;
+    left: 0;
+    z-index: 9999999;
+    height: 300px;
+    width: 300px;
+    background: linear-gradient(to bottom, rgba(68, 128, 122, 0.07) 10%,rgba(13, 255, 121, 0.32) 80%); */
+}
